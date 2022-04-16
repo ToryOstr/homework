@@ -14,27 +14,40 @@
 // };
 
 // addUserInput();
+/*
+ function getExtremeElements(array) {
+  // Change code below this line
+  const args = Array.from(array);
+     const firstEl = args.splice(0, 1);
+     
+     const last = args.splice(-1, 1);
 
- 
-function isN() {
+     const result = firstEl.concat(last);
+     
+     return console.log( result );
 
-    let n = +prompt("введіть число", 0); 
-    switch (true) {
-        case (n === Number):
-             message = `Ви ввели ${n} . Дякую!`;
-            break;
-        
-        case (n === null):
-        case (n === isNaN):
-        
-             message = `${n} Це ж не число!`;
-            break;
-        
-    };
-    
-    return message;
+  // Change code above this line
 };
-isN();
 
+getExtremeElements([1, 2, 3, 4, 5]);
+ // повертає [1, 5]
+getExtremeElements(["Earth", "Mars", "Venus"]);
+// повертає ["Earth", "Venus"]
+getExtremeElements(["apple", "peach", "pear", "banana"]);
+// повертає ["apple", "banana"]
 
+Термін slug - це людино-зрозумілий унікальний ідентифікатор,
+ який використовується у веб-розробці для створення 
+ читабельних URL-адрес.
+
+Наприклад, замість того, щоб користувач побачив 
+в адресному рядку mysite.com/posts/1q8fh74tx, 
+можна зробити slug з назви статті. В результаті 
+адреса буде приємнішою для сприйняття:
+ mysite.com/posts/arrays-for-begginers.
+Увага
+
+Slug - це завжди рядок у нижньому регістрі,
+ слова якого розділені тире.
+*/
 
